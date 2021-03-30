@@ -15,8 +15,8 @@ const AboutSection = () => {
                 I am an aspiring Web Devloper.
                 </SubTitle>
                 <div className="social-links">
-                    <a href="https://www.linkedin.com/in/alexander-alejandro/"><FaLinkedin size= '7rem' /></a>
-                    <a href="https://github.com/aalejan"><FaGithub size= '7rem' /></a>
+                    <a href="https://www.linkedin.com/in/alexander-alejandro/"><FaLinkedin size= '8rem' /></a>
+                    <a href="https://github.com/aalejan"><FaGithub size= '8rem' /></a>
                 </div>
             </div>
         </About>
@@ -35,7 +35,7 @@ const About = styled.div `
     justify-content: center;
     .social-links{
         animation: title-entrance 1.5s ease-in-out;
-        padding-top: 1rem;
+        padding-top: 2rem;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -64,7 +64,7 @@ font-size: 16rem;
 
 const SubTitle = styled.div `
     margin-top: 1rem;
-    font-size: 4.2rem;
+    font-size: 4.5rem;
     color:white;
     animation: title-entrance 1.5s ease-in-out;
     animation-delay:0.2s;

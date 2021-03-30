@@ -47,14 +47,14 @@ font-family: 'Lobster', cursive;
 `
 const Skills = styled.div`
 padding-top: 4rem;
-padding-bottom:4rem;
+padding-bottom:6rem;
 margin: auto;
 width: 60%;
 justify-content: space-between;
 display:flex;
 flex-wrap: wrap;
 img{
-    height: 101px;
+    height: 12rem;
     border-radius:10px;
 }
 @media(max-width:375px){

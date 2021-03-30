@@ -64,6 +64,27 @@ img{
     transform: scale(1.1);
 }
 
+@media (max-width: 320px){
+    width: 15rem;
+    height: 15rem;
+    font-size: 8px;
+   
+    button{
+        font-size:.3rem;
+        padding: 2px;
+        right: 10px;
+        bottom: 5px;
+    }
+    .card-info{
+        padding-top: .5rem;
+         h4{
+             padding-bottom: .5rem;
+        font-size: 1rem;
+         }
+    }
+   
+}
+
 
 `
 

@@ -45,7 +45,7 @@ background-color: #0b172a;
 `
 
 const Cards = styled.div`
-width: 70%;
+width: 60%;
 margin: auto;
 padding-top: 3rem;
 padding-bottom: 3rem;
@@ -54,7 +54,7 @@ justify-content: space-around;
 @media(max-width: 375px){
     justify-content: space-between;
     margin: 2rem;
-    width: 95%;
+    
 }
 
 @media(max-width: 414px){
