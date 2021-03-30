@@ -1,4 +1,4 @@
-import Nav from './components/Nav'
+
 import AboutPage from './pages/AboutPage'
 import './App.css'
 

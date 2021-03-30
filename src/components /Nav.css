@@ -1,0 +1,25 @@
+
+@keyframes nav-entrance{
+    from{
+        transform: translateX(-100%)
+    }
+    to{
+        transform: translateX(0%)
+    }
+}
+
+
+
+
+
+@media(max-width: 375px){
+    header{
+        margin-left: 30%;
+    }
+}
+
+@media(max-width: 414px){
+    header{
+        margin-left: 30%;
+    }
+}
