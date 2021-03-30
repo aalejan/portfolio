@@ -51,16 +51,7 @@ padding-top: 3rem;
 padding-bottom: 3rem;
 display: flex;
 justify-content: space-around;
-@media(max-width: 375px){
-    justify-content: space-between;
-    margin: 2rem;
-    
-}
 
-@media(max-width: 414px){
-    justify-content: space-between;
-    margin: 2rem;
-}
 `
 
 export default ProjectsSection
