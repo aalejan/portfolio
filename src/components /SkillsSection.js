@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
 import './SkillsSection.css'
 import ReactIcon from '../images/ReactIcon.png'
 import HTMLIcon from '../images/HTMLlogo.svg.png'
@@ -16,24 +17,24 @@ const SkillsSection = () => {
                 <SkillsTitle>Skills</SkillsTitle>
             </div>
             <Skills>
-                <div className="skill">
+                <motion.div whileHover={{ scale: 1.3 }} className="skill">
                     <img src={ReactIcon} alt=""/>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.3 }}>
                     <img src={HTMLIcon} alt=""/>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.3 }}>
                     <img src={CSSLogo} alt=""/>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.3 }}>
                     <img src={JSLogo} alt=""/>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.3 }}>
                     <img src={SQLogo} alt=""/>
-                </div>
-                <div>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.3 }}>
                     <img src={BootstrapImg} alt=""/>
-                </div>
+                </motion.div>
            </Skills>
         </div>
     )
