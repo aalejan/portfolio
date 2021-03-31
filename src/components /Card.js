@@ -64,7 +64,7 @@ img{
     transform: scale(1.1);
 }
 
-@media (max-width: 420px){
+@media (max-width: 620px){
     width: 15rem;
     height: 15rem;
     font-size: 8px;

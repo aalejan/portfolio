@@ -1,17 +1,28 @@
 import React from 'react'
 import './Nav.css'
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
 
 const Nav = () => {
     return (
         <div >
                 <StyledNav className="navbar">
+                    
                     <NavItems className="nav-items">
+                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
                         <li className="nav-item"><NavLink href="#About">About</NavLink></li>
+                        </motion.li>
+                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
                         <li className="nav-item"><NavLink href="#Projects">Projects</NavLink></li>
+                        </motion.li>
+                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
                         <li className="nav-item"><NavLink href="#Skills">Skills</NavLink></li>
+                        </motion.li>
+                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
                         <li className="nav-item"><NavLink href="#Contact">Contact</NavLink></li>
+                        </motion.li>             
                     </NavItems>
+                    
                 </StyledNav>
         </div>
     )
@@ -28,15 +39,15 @@ const StyledNav = styled.nav`
 `
 
 const NavItems = styled.ul `
-    animation: title-entrance 1.5s ease-in-out;
+    //animation: title-entrance 1.5s ease-in-out;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    font-family: 'Inter', sans-serif;
     font-size: 2.6rem;
     padding: 2rem 0rem;
     padding-right: 2rem;
     width: 50%;
+    font-weight: 600;
 @media(max-width:826px){
        li{
            font-size: 1.3rem;
@@ -45,7 +56,7 @@ const NavItems = styled.ul `
 
  @media(max-width: 414px){
        li{
-           font-size: 1.2rem;
+           font-size: 1rem;
        } 
     }
     

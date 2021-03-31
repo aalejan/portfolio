@@ -8,6 +8,7 @@ import JSLogo from '../images/JSLogo.png'
 import SQLogo from '../images/SQLogo.png'
 import BootstrapImg from '../images/Bootstrap.png'
 
+
 const SkillsSection = () => {
     return (
         <div  id="Skills">
@@ -40,8 +41,8 @@ const SkillsSection = () => {
 
 
 const SkillsTitle = styled.h2 `
-font-family: 'Lobster', cursive;
-    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
     font-weight: 500;
     text-align: center;
 `

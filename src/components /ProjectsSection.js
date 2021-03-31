@@ -37,7 +37,7 @@ padding-bottom:2rem;
 //background-color: #bfefd2;
 background-color: #0b172a;
     h2{
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 500;
     text-align: center; 
     }
