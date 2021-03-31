@@ -4,21 +4,29 @@ import styled from 'styled-components'
 import {motion} from 'framer-motion'
 
 const Nav = () => {
+
+
+const navAnimation = {
+    hidden: {opacity : 0},
+    show: {opacity : 1, transition: {duration: 2}}
+}
+
+
     return (
         <div >
                 <StyledNav className="navbar">
                     
                     <NavItems className="nav-items">
-                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
+                        <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#About">About</NavLink></li>
                         </motion.li>
-                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
+                        <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#Projects">Projects</NavLink></li>
                         </motion.li>
-                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
+                        <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#Skills">Skills</NavLink></li>
                         </motion.li>
-                        <motion.li animate={{opacity: 1, transition: {duration: 2}}} initial={{opacity: 0}}>
+                        <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#Contact">Contact</NavLink></li>
                         </motion.li>             
                     </NavItems>
