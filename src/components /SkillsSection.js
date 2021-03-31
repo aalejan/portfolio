@@ -51,18 +51,18 @@ const Skills = styled.div`
 padding-top: 4rem;
 padding-bottom:6rem;
 margin: auto;
-width: 60%;
+width: 68%;
 justify-content: space-between;
 display:flex;
 flex-wrap: wrap;
 img{
-    height: 12rem;
+    height: 14rem;
     border-radius:10px;
 }
 @media(max-width:375px){
     img{
-        height:40px;
-        width: 50px;
+        height:4rem;
+        width: 5rem;
     }
     width: 80%;
 }

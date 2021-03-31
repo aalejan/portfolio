@@ -16,7 +16,7 @@ const navAnimation = {
         <div >
                 <StyledNav className="navbar">
                     
-                    <NavItems className="nav-items">
+                    <NavItems className="active">
                         <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#About">About</NavLink></li>
                         </motion.li>
@@ -40,7 +40,7 @@ const StyledNav = styled.nav`
     top: 0;
     width: 100%;
     background-color: #0b172a;
-    
+    min-height: 10vh;
    display:flex;
    justify-content: flex-end;
     
@@ -56,6 +56,9 @@ const NavItems = styled.ul `
     padding-right: 2rem;
     width: 50%;
     font-weight: 600;
+    
+
+
 @media(max-width:826px){
        li{
            font-size: 1.3rem;
