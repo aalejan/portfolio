@@ -1,24 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from 'styled-components';
 import RightNav from './RightNav';
+
+
 
 const Burger = () => {
  const [open, setOpen] = useState(false)
 
     return (
         <>
-         <StyledBurger>
+         <StyledBurger open={open} onClick={() =>setOpen(!open)}>
             <div></div> 
             <div></div>    
             <div></div>
-        </StyledBurger>   
+        </StyledBurger> 
+        <RightNav open={open} />
         </>
     )
 }
 
 const StyledBurger = styled.div`
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   position: fixed;
   top: 15px;
   right: 20px;
@@ -30,9 +33,9 @@ const StyledBurger = styled.div`
     flex-flow: column nowrap;
   }
   div {
-    width: 2rem;
-    height: 0.25rem;
-    background-color: ${({ open }) => open ? '#ccc' : '#333'};
+    width: 3rem;
+    height: 0.5rem;
+    background-color: ${({ open }) => open ? '#ccc' : 'white'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

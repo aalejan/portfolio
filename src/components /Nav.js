@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import styled from 'styled-components'
+import Burger from './Burger';
 import {motion} from 'framer-motion'
 
 const Nav = () => {
@@ -15,8 +16,7 @@ const navAnimation = {
     return (
         <div >
                 <StyledNav className="navbar">
-                    
-                    <NavItems className="active">
+                    <NavItems  className="active">
                         <motion.li variants={navAnimation} initial='hidden' animate='show'>
                         <li className="nav-item"><NavLink href="#About">About</NavLink></li>
                         </motion.li>
@@ -30,8 +30,9 @@ const navAnimation = {
                         <li className="nav-item"><NavLink href="#Contact">Contact</NavLink></li>
                         </motion.li>             
                     </NavItems>
-                    
+                    <Burger />
                 </StyledNav>
+                
         </div>
     )
 }
@@ -43,6 +44,7 @@ const StyledNav = styled.nav`
     min-height: 10vh;
    display:flex;
    justify-content: flex-end;
+  
     
 `
 
@@ -56,6 +58,7 @@ const NavItems = styled.ul `
     padding-right: 2rem;
     width: 50%;
     font-weight: 600;
+   
     
 
 
@@ -63,6 +66,10 @@ const NavItems = styled.ul `
        li{
            font-size: 1.3rem;
        } 
+    }
+   
+    @media (max-width: 768px){
+        display: none;
     }
 
  @media(max-width: 414px){
