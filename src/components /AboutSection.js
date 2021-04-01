@@ -14,7 +14,7 @@ const AboutSection = () => {
 
     const containerAnim = {
         hidden: {x : 100},
-        show: {x : 0 , transition: {duration: 0.75, ease: 'easeOut', staggerChildren: 1}}
+        show: {x : 0 , transition: {duration: 0.75, ease: 'easeOut', staggerChildren: 1, when: 'afterChildren'}}
     }
 
     return (
