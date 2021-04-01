@@ -22,7 +22,7 @@ const Ul = styled.ul`
     padding: 18px 10px;
   }
   @media (max-width: 768px) {
-z-index: 2;
+z-index:2;
 flex-flow: column nowrap;
 background-color: #112443;
 position: fixed;
