@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import {motion} from 'framer-motion'
 
 
 const Card = ({description, img, title, code}) => {
@@ -11,7 +12,7 @@ const Card = ({description, img, title, code}) => {
                     <h4>{title}</h4>
                     <p>{description}</p>  
                 </div>
-                <button><a href={code}>Source Code</a></button>
+                <motion.button whileHover={{ scale: 1.2 }}><a href={code}>Source Code</a></motion.button>
             </ProjectCard>
         </div>
     )

@@ -89,11 +89,6 @@ const NavItems = styled.ul `
     
 `
 
-
-
-
-
-
 const NavLink = styled.a`
     font-family: 'Inter', sans-serif;
     cursor: pointer;
