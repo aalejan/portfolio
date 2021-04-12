@@ -63,6 +63,10 @@ const About = styled.div `
     }
     a{
         color:white;
+        &:hover{
+           transform: scale(1.2);
+           transition: transform 150ms ease-in-out;
+        }
     }
     @media(max-width: 375px){
         
