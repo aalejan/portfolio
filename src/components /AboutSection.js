@@ -89,6 +89,7 @@ const SubTitle = styled.div `
     margin-top: 1rem;
     font-size: 4.5rem;
     color:white;
+    text-align: center;
     //animation: title-entrance 1.5s ease-in-out;
    // animation-delay:0.2s;
     @media(max-width: 375px){
