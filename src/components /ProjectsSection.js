@@ -14,6 +14,7 @@ const ProjectsSection = () => {
             img={CoinHub} 
             title="CoinHub" 
             code="https://github.com/aalejan/crypto-app"
+            liveCode="https://aalejan.github.io/crypto-app/"
             />
             <Card 
             description="This App allows you to enter any text you want and have it translated into the language of your favorite Star Wars characters!!" 

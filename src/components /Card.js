@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {motion} from 'framer-motion'
 
 
-const Card = ({description, img, title, code}) => {
+const Card = ({description, img, title, code, liveCode}) => {
     return (
         <div>
             <ProjectCard className="card">
@@ -12,6 +12,7 @@ const Card = ({description, img, title, code}) => {
                     <h4>{title}</h4>
                     <p>{description}</p>  
                 </div>
+                <motion.button id="liveCode" whileHover={{ scale: 1.2 }}><a href={liveCode}>Live Code</a></motion.button>
                 <motion.button whileHover={{ scale: 1.2 }}><a href={code}>Source Code</a></motion.button>
             </ProjectCard>
         </div>
@@ -25,11 +26,22 @@ border-style: none;
 border-radius: 4px;
 flex: 1 1 25rem;
 font-size: 1.5rem;
-//box-shadow: 3px 3px 5px 6px #537661;
 box-shadow: 3px 3px 5px 6px #394151;
 position: relative;
 transition: transform 250ms ease-in-out;
 height: 300px;
+#liveCode{
+    
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9b775;
+}
 button{
     color: black;
     cursor: pointer;
@@ -52,7 +64,7 @@ img{
 }
 .card-info{
     position: absolute;
-    top: 50%;
+    top: 47%;
     padding: 1.2rem;
     h4{
         text-align: center;
@@ -69,9 +81,14 @@ img{
     width: 15rem;
     height: 15rem;
     font-size: 8px;
-   
+   #liveCode{
+        font-size:.5rem;
+        padding: 2px;
+        right: 10px;
+        bottom: 5px;
+   }
     button{
-        font-size:.3rem;
+        font-size:.5rem;
         padding: 2px;
         right: 10px;
         bottom: 5px;
