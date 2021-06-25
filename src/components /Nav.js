@@ -40,12 +40,10 @@ const navAnimation = {
 const StyledNav = styled.nav`
     top: 0;
     width: 100%;
-    background-color: #0b172a;
+    background-color: black;
     min-height: 10vh;
    display:flex;
    justify-content: flex-end;
-  
-    
 `
 
 const NavItems = styled.ul `

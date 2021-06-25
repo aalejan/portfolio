@@ -1,5 +1,4 @@
 import React from 'react'
-import './AboutSection.css'
 import styled from 'styled-components'
 import { motion} from 'framer-motion'
 
@@ -45,7 +44,7 @@ const AboutSection = () => {
 const About = styled.div `
     //background-color:#caebf2 ;
     padding-left: 1rem;
-    background-color: #0b172a;
+    /* background-color: #0b172a; */
     color:white;
     width:100%;
     min-height: 100vh;

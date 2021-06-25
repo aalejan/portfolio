@@ -37,6 +37,7 @@ import styled from 'styled-components';
 }
 
 const Contact = styled.div`
+color:white;
 font-family: 'Lobster', cursive;
 width: 60%;
 margin: auto;
@@ -44,7 +45,7 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 display: flex;
 justify-content: center;
-box-shadow: 2px 2px 4px 5px #e6e8e6;
+box-shadow: 2px 2px 4px 5px #141414;
 border-radius: 3px;
 input:focus {
         outline:none;

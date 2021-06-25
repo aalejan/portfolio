@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     return (
         <Projects id="Projects">
         <h2>Projects</h2>
-        <Cards >
+        
             <Card 
             description="Access to over 100 different crypto currencies and some exchanges to trade crypto on!" 
             img={CoinHub} 
@@ -21,15 +21,24 @@ const ProjectsSection = () => {
             img={StarWars} 
             title="Star Wars Translator"
             code="https://github.com/aalejan/Star-Wars-Translator-App"
+            liveCode=''
             />
-        </Cards>
+        
         </Projects>
        
     )
 }
 
 const Projects = styled.div`
-h2{
+color: white;
+min-height: 70vh;
+ width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+/* h2{
     font-family: 'Lobster', cursive;
     color:white;
 
@@ -41,18 +50,18 @@ background-color: #0b172a;
     font-size: 8rem;
     font-weight: 500;
     text-align: center; 
-    }
+    } */
 
 `
 
-const Cards = styled.div`
-width: 60%;
-margin: auto;
-padding-top: 3rem;
-padding-bottom: 3rem;
-display: flex;
-justify-content: space-around;
+// const Cards = styled.div`
+// width: 60%;
+// margin: auto;
+// padding-top: 3rem;
+// padding-bottom: 3rem;
+// display: flex;
+// justify-content: space-around;
 
-`
+// `
 
 export default ProjectsSection
