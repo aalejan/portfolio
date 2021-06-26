@@ -11,29 +11,27 @@ const Card = ({description, img, title, code, liveCode}) => {
                 <div id="overlay" className="card-info">
                     <h2>{title}</h2>
                     <p className='description'>{description}</p>
-                    <motion.button id="liveCode" whileHover={{ scale: 1.2 }}><a href={liveCode}>Live Code</a></motion.button>
-                    <motion.button whileHover={{ scale: 1.2 }}><a href={code}>Source Code</a></motion.button>
+                    <div className="buttons">
+                        <motion.button id="liveCode" whileHover={{ scale: 1.1 }}><a href={liveCode}>Live Code</a></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }}><a href={code}>Source Code</a></motion.button>
+                    </div>
                 </div>
-               
             </ProjectCard>
         
     )
 }
 
 const ProjectCard = styled.div`
-   
+   margin-top: 4rem;
     position: relative;
     width: 40%;
     height: 100%;
     cursor: pointer;
 img{
-   
   border-radius: 4px;
-
     display: block;
     width: 100%;
 }
-
 #overlay{
     position: absolute;
     top: 0;
@@ -44,18 +42,16 @@ img{
     color: white;
     display: flex;
     flex-direction: column;
-    padding-top: 30%;
-    align-items: center;
+    
+    align-items: flex-start;
     overflow:auto;
     opacity: 0;
     transition: opacity 0.25s;
 }
-
 #overlay > *{
     transform: translateY(2rem);
      transition: transform 0.25s;
 }
-
 #overlay:hover{
     opacity: 1;
 }
@@ -69,11 +65,16 @@ margin-top: 1.5rem;
 font-size: 1.5rem;
 }
 
-
 h2{
     width: 90%;
     text-align: center;
     font-size: 3rem;
+}
+.buttons{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
  #overlay button{
@@ -87,7 +88,7 @@ h2{
 
 #overlay button:hover{
     background: #e51937;
-    transition: 350ms ease-in;
+    transition: 250ms ease-in;
 }
 /* background-color: white;
 width: 300px;
