@@ -2,6 +2,7 @@
     min-height: 70vh;
     color: white;
     display: flex;
+    background: white;
     
 }
 #Skills .title{
@@ -10,4 +11,5 @@
     justify-content: center;
     align-items: center;
     font-size: 5rem;
+    color:black;
 }

@@ -48,6 +48,7 @@ const SkillsTitle = styled.h2 `
     
 `
 const Skills = styled.div`
+
 flex: 1 1;
   width: 90%;
     margin: auto;
@@ -55,7 +56,7 @@ flex: 1 1;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom:6rem;
+   padding-top: 6rem;
 /* height: 100%;
 padding-top: 4rem;
 padding-bottom:6rem;
