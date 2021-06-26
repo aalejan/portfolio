@@ -29,7 +29,7 @@ const ProjectCard = styled.div`
 img{
    
   border-radius: 4px;
-    height: 60vh;
+
     display: block;
     width: 100%;
 }

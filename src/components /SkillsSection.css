@@ -1,4 +1,13 @@
 #Skills{
     min-height: 70vh;
     color: white;
+    display: flex;
+    
+}
+#Skills .title{
+    display: flex;
+    flex:.85 .85;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
 }

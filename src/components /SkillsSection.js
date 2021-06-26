@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import {motion} from 'framer-motion'
 import './SkillsSection.css'
 import ReactIcon from '../images/ReactIcon.png'
 import HTMLIcon from '../images/HTMLlogo.svg.png'
@@ -14,27 +13,27 @@ const SkillsSection = () => {
     return (
         <div  id="Skills">
             <div className="title">
-                <SkillsTitle>Skills</SkillsTitle>
+                <SkillsTitle>My Skills</SkillsTitle>
             </div>
             <Skills>
-                <motion.div whileHover={{ scale: 1.3 }} className="skill">
+                <div >
                     <img src={ReactIcon} alt=""/>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.3 }}>
+                </div>
+                <div >
                     <img src={HTMLIcon} alt=""/>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.3 }}>
+                </div>
+                <div >
                     <img src={CSSLogo} alt=""/>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.3 }}>
+                </div>
+                <div >
                     <img src={JSLogo} alt=""/>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.3 }}>
+                </div>
+                <div >
                     <img src={SQLogo} alt=""/>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.3 }}>
+                </div>
+                <div>
                     <img src={BootstrapImg} alt=""/>
-                </motion.div>
+                </div>
            </Skills>
         </div>
     )
@@ -46,18 +45,34 @@ const SkillsTitle = styled.h2 `
     font-size: 8rem;
     font-weight: 500;
     text-align: center;
+    
 `
 const Skills = styled.div`
+flex: 1 1;
+  width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:6rem;
+/* height: 100%;
 padding-top: 4rem;
 padding-bottom:6rem;
 margin: auto;
-width: 68%;
+width: 90%;
 justify-content: space-between;
 display:flex;
-flex-wrap: wrap;
-img{
-    height: 14rem;
-    border-radius:10px;
+flex-wrap: wrap; */
+img{ 
+    height: 85%;
+    display: block;
+    width: 90%;
+}
+div{
+    width: 30%;
+    margin-bottom: 7rem;
+    cursor: pointer; 
 }
 @media(max-width:375px){
     img{

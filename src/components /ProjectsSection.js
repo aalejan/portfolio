@@ -3,6 +3,7 @@ import Card from './Card'
 import CoinHub from '../images/CoinHub.png'
 import styled from 'styled-components'
 import StarWars from '../images/StarWars.png'
+import MovieImg from '../images/Movie.png'
 
 const ProjectsSection = () => {
     return (
@@ -21,7 +22,14 @@ const ProjectsSection = () => {
             img={StarWars} 
             title="Star Wars Translator"
             code="https://github.com/aalejan/Star-Wars-Translator-App"
-            liveCode=''
+            liveCode='https://amazing-boyd-47ffdc.netlify.app/Translator'
+            />
+            <Card
+            description= 'Movie app the uses data from the TMDB API.Users are able to search for any movie they would like and popular movies are displayed to show what the public is watching. TMDB was used in order to retireive movie data.'
+            img={MovieImg}
+            title = 'Movie App'
+            code = 'https://github.com/aalejan/MovieUI'
+            liveCode='https://amazing-boyd-47ffdc.netlify.app/'
             />
         
         </Projects>
@@ -31,13 +39,14 @@ const ProjectsSection = () => {
 
 const Projects = styled.div`
 color: white;
-min-height: 70vh;
+
  width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 10rem;
 /* h2{
     font-family: 'Lobster', cursive;
     color:white;
