@@ -29,7 +29,7 @@ const ProjectsSection = () => {
             img={MovieImg}
             title = 'Movie App'
             code = 'https://github.com/aalejan/MovieUI'
-            liveCode='https://amazing-boyd-47ffdc.netlify.app/'
+            liveCode='https://alejandromovies.com/'
             />
         
         </Projects>
@@ -39,7 +39,7 @@ const ProjectsSection = () => {
 
 const Projects = styled.div`
 color: white;
-
+min-height: 70vh;
  width: 90%;
     margin: auto;
     display: flex;
@@ -47,11 +47,12 @@ color: white;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-bottom: 10rem;
-/* h2{
+    h2{
     font-family: 'Lobster', cursive;
     color:white;
-
+    font-size: 8rem;
 }
+/* 
 padding-bottom:2rem;
 //background-color: #bfefd2;
 background-color: #0b172a;

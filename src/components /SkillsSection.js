@@ -42,10 +42,13 @@ const SkillsSection = () => {
 
 const SkillsTitle = styled.h2 `
     font-family: 'Lobster', cursive;
-    font-size: 8rem;
+    font-size: 12rem;
     font-weight: 500;
     text-align: center;
     
+    @media(max-width: 736px){
+        font-size: 5rem;
+}
 `
 const Skills = styled.div`
 
@@ -75,7 +78,7 @@ div{
     margin-bottom: 7rem;
     cursor: pointer; 
 }
-@media(max-width:375px){
+/* @media(max-width:375px){
     img{
         height:4rem;
         width: 5rem;
@@ -87,7 +90,8 @@ div{
         height:50px;
     }
     width: 90%;
-}
+} */
+
 
 `
 

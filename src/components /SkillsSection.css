@@ -1,5 +1,5 @@
 #Skills{
-    min-height: 70vh;
+
     color: white;
     display: flex;
     background: white;
@@ -10,6 +10,6 @@
     flex:.85 .85;
     justify-content: center;
     align-items: center;
-    font-size: 5rem;
+    font-size: 10rem;
     color:black;
 }

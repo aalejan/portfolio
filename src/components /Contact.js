@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
+import './contact.css'
 
 
  function ContactUs() {
@@ -19,6 +20,7 @@ import styled from 'styled-components';
   }
 
   return (
+      <div className='contact'>
     <Contact id="Contact">
     
     <form className="contact-form" onSubmit={sendEmail}>
@@ -32,14 +34,15 @@ import styled from 'styled-components';
       <input className= 'submit' type="submit" value="Send Message" />
     </form>
     </Contact>
-    
+    </div>
   );
 }
 
 const Contact = styled.div`
-color:white;
+width: 100%;
+background: white;
+color:black;
 font-family: 'Lobster', cursive;
-width: 60%;
 margin: auto;
 margin-top: 2rem;
 margin-bottom: 2rem;
