@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.37785355.chunk.css",
-    "main.js": "/portfolio/static/js/main.d2d34de5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d2d34de5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4dbdd0cd.chunk.css",
+    "main.js": "/portfolio/static/js/main.0598237e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0598237e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.38967389.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.38967389.js.map",
-    "static/js/2.ba974e13.chunk.js": "/portfolio/static/js/2.ba974e13.chunk.js",
-    "static/js/2.ba974e13.chunk.js.map": "/portfolio/static/js/2.ba974e13.chunk.js.map",
+    "static/js/2.d44babb3.chunk.js": "/portfolio/static/js/2.d44babb3.chunk.js",
+    "static/js/2.d44babb3.chunk.js.map": "/portfolio/static/js/2.d44babb3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.37785355.chunk.css.map": "/portfolio/static/css/main.37785355.chunk.css.map",
-    "static/js/2.ba974e13.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ba974e13.chunk.js.LICENSE.txt",
+    "static/css/main.4dbdd0cd.chunk.css.map": "/portfolio/static/css/main.4dbdd0cd.chunk.css.map",
+    "static/js/2.d44babb3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d44babb3.chunk.js.LICENSE.txt",
     "static/media/Bootstrap.054efa3f.png": "/portfolio/static/media/Bootstrap.054efa3f.png",
     "static/media/CSSLogo.930d3a79.png": "/portfolio/static/media/CSSLogo.930d3a79.png",
-    "static/media/CoinHub.e69acddc.png": "/portfolio/static/media/CoinHub.e69acddc.png",
+    "static/media/CoinHub.a8cb19a1.png": "/portfolio/static/media/CoinHub.a8cb19a1.png",
     "static/media/HTMLlogo.svg.b7d94634.png": "/portfolio/static/media/HTMLlogo.svg.b7d94634.png",
     "static/media/JSLogo.2e10b2a2.png": "/portfolio/static/media/JSLogo.2e10b2a2.png",
+    "static/media/Movie.1793d468.png": "/portfolio/static/media/Movie.1793d468.png",
     "static/media/ReactIcon.69bdee9b.png": "/portfolio/static/media/ReactIcon.69bdee9b.png",
-    "static/media/StarWars.900ab14b.png": "/portfolio/static/media/StarWars.900ab14b.png"
+    "static/media/StarWars.756ebdb3.png": "/portfolio/static/media/StarWars.756ebdb3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.38967389.js",
-    "static/js/2.ba974e13.chunk.js",
-    "static/css/main.37785355.chunk.css",
-    "static/js/main.d2d34de5.chunk.js"
+    "static/js/2.d44babb3.chunk.js",
+    "static/css/main.4dbdd0cd.chunk.css",
+    "static/js/main.0598237e.chunk.js"
   ]
 }
