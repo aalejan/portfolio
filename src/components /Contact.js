@@ -85,24 +85,7 @@ form{
         outline:none;
     }
 }
-/* @media(max-width: 375px){
-    form{
-        width:250px;
-        textarea{
-        height: 50px;
-        } 
-    }
-   width: 80%;
-}
-@media(max-width: 414px){
-    form{
-        width:250px;
-        textarea{
-        height: 50px;
-        } 
-    }
-   width: 80%;
-} */
+
 
 `
 

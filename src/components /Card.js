@@ -42,7 +42,6 @@ img{
     color: white;
     display: flex;
     flex-direction: column;
-    
     align-items: flex-start;
     overflow:auto;
     opacity: 0;
@@ -65,10 +64,10 @@ margin-top: 1.5rem;
 font-size: 1.5rem;
 }
 
-h2{
+#overlay h2{
     width: 90%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 .buttons{
     width: 60%;
@@ -81,98 +80,21 @@ h2{
      margin-top: 1.5rem;
     cursor: pointer;
     padding: .5rem .75rem;
-    background: white;
+    background: #ffe989;
     font-size: 1.5rem;
     font-weight: 500;
+    border: none;
+    border-radius: 3px;
 }
 
 #overlay button:hover{
-    background: #e51937;
+    background:#ffdc42;
     transition: 250ms ease-in;
 }
-/* background-color: white;
-width: 300px;
-border-style: none;
-border-radius: 4px;
-flex: 1 1 25rem;
-font-size: 1.5rem;
-box-shadow: 3px 3px 5px 6px #394151;
-position: relative;
-transition: transform 250ms ease-in-out;
-height: 300px;
-#liveCode{
-    
+
+button a:visited{
     color: black;
-    cursor: pointer;
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f9b775;
 }
-button{
-    color: black;
-    cursor: pointer;
-    position: absolute;
-    bottom: 10px;
-    right: 30px;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f9b775;
-}
-button a{
-    color:white;
-}
-
-img{
-    position: absolute;
-    width: 100%;
-    height: 50%;
-}
-.card-info{
-    position: absolute;
-    top: 47%;
-    padding: 1.2rem;
-    h4{
-        text-align: center;
-        padding-bottom: 1rem;
-        font-size: 1.75rem;
-    }
-}
-
-&:hover{
-    transform: scale(1.1);
-}
-
-@media (max-width: 620px){
-    width: 15rem;
-    height: 15rem;
-    font-size: 8px;
-   #liveCode{
-        font-size:.5rem;
-        padding: 2px;
-        right: 10px;
-        bottom: 5px;
-   }
-    button{
-        font-size:.5rem;
-        padding: 2px;
-        right: 10px;
-        bottom: 5px;
-    }
-    .card-info{
-        padding-top: .5rem;
-         h4{
-             padding-bottom: .5rem;
-        font-size: 1rem;
-         }
-    }
-   
-} */
-
 
 `
 
