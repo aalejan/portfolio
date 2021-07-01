@@ -22,7 +22,6 @@ import './contact.css'
   return (
       <div className='contact'>
     <Contact id="Contact">
-    
     <form className="contact-form" onSubmit={sendEmail}>
     <div className='title'>Contact Me</div>
       <label>Name</label>
@@ -39,8 +38,8 @@ import './contact.css'
 }
 
 const Contact = styled.div`
-width: 100%;
-background: white;
+width: 70%;
+background: white; 
 color:black;
 font-family: 'Lobster', cursive;
 margin: auto;
@@ -48,7 +47,6 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 display: flex;
 justify-content: center;
-box-shadow: 2px 2px 4px 5px #141414;
 border-radius: 3px;
 input:focus {
         outline:none;
@@ -63,7 +61,7 @@ form{
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 70%;
     input{
         border-bottom: 1px solid black;
        border-top: none;
@@ -87,7 +85,7 @@ form{
         outline:none;
     }
 }
-@media(max-width: 375px){
+/* @media(max-width: 375px){
     form{
         width:250px;
         textarea{
@@ -104,7 +102,7 @@ form{
         } 
     }
    width: 80%;
-}
+} */
 
 `
 

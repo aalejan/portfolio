@@ -39,7 +39,7 @@ const ProjectsSection = () => {
 
 const Projects = styled.div`
 color: white;
-min-height: 70vh;
+/* min-height: 70vh; */
  width: 90%;
     margin: auto;
     display: flex;
@@ -50,7 +50,14 @@ min-height: 70vh;
     h2{
     font-family: 'Lobster', cursive;
     color:white;
-    font-size: 8rem;
+    font-size: 12rem;
+    padding-top: 2rem;
+}
+
+@media (max-width: 760px){
+    h2{
+        font-size: 5rem;
+    }
 }
 /* 
 padding-bottom:2rem;
