@@ -67,20 +67,16 @@ const About = styled.div `
            transition: transform 150ms ease-in-out;
         }
     }
-    @media(max-width: 375px){
-        
-    }
 `
 
 const Title = styled.h2 `
 font-size: 16rem;
-// animation: title-entrance 1.5s ease-in-out;
  color:white;
  font-weight: 800;
  font-family: 'Lobster', cursive;
- @media (max-width: 375px){
-    font-size: 10rem;
-     padding-left:4rem;
+ @media (max-width: 736px){
+    
+     font-size: 10rem;
  }
 `
 
@@ -91,10 +87,9 @@ const SubTitle = styled.div `
     text-align: center;
     //animation: title-entrance 1.5s ease-in-out;
    // animation-delay:0.2s;
-    @media(max-width: 375px){
-        font-size: 1.5rem;
-        padding-left: 4rem;
-        margin-top: .5rem;
+    @media(max-width: 736px){
+        font-size: 2.5rem;
+        
     }
 `
 
