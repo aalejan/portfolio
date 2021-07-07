@@ -79,7 +79,7 @@ font-size: 1.5rem;
  #overlay button{
      margin-top: 1.5rem;
     cursor: pointer;
-    padding: .5rem .75rem;
+    padding: .3em .6em;
     background: #ffe989;
     font-size: 1.5rem;
     font-weight: 500;
@@ -94,6 +94,18 @@ font-size: 1.5rem;
 
 button a:visited{
     color: black;
+}
+
+@media (max-width: 768px){
+    #overlay h2{
+        font-size: 2rem;
+    }
+    #overlay .description{
+        font-size: 1rem;
+    }
+    #overlay button{
+        font-size: 1rem;
+    }
 }
 
 `

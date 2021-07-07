@@ -42,9 +42,7 @@ const AboutSection = () => {
 }
 
 const About = styled.div `
-    //background-color:#caebf2 ;
     padding-left: 1rem;
-    /* background-color: #0b172a; */
     color:white;
     width:100%;
     min-height: 100vh;
@@ -52,7 +50,6 @@ const About = styled.div `
     align-items: center;
     justify-content: center;
     .social-links{
-        //animation: title-entrance 1.5s ease-in-out;
         padding-top: 2rem;
         display: flex;
         justify-content: space-around;
@@ -85,8 +82,6 @@ const SubTitle = styled.div `
     font-size: 4.5rem;
     color:white;
     text-align: center;
-    //animation: title-entrance 1.5s ease-in-out;
-   // animation-delay:0.2s;
     @media(max-width: 736px){
         font-size: 2.5rem;
         
