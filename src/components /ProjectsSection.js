@@ -38,7 +38,8 @@ const ProjectsSection = () => {
 }
 
 const Projects = styled.div`
-color: white;
+/* color: white; */
+color:#fcdf68 ;
 /* min-height: 70vh; */
  width: 90%;
     margin: auto;
@@ -48,37 +49,34 @@ color: white;
     justify-content: space-around;
     padding-bottom: 10rem;
     h2{
+        padding-bottom: 0rem;
+    position: relative;
     font-family: 'Lobster', cursive;
+    font-size: 10rem;
+    font-weight: 600;
     color:white;
-    font-size: 12rem;
     padding-top: 2rem;
+    text-decoration: underline #fcdf68 ;
+    /* &:after{
+        content:'';
+        position:absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color:white;
+        transform: scaleX(1);
+        
+    } */
 }
+
+
 
 @media (max-width: 760px){
     h2{
         font-size: 5rem;
     }
 }
-/* 
-padding-bottom:2rem;
-//background-color: #bfefd2;
-background-color: #0b172a;
-    h2{
-    font-size: 8rem;
-    font-weight: 500;
-    text-align: center; 
-    } */
-
-`
-
-// const Cards = styled.div`
-// width: 60%;
-// margin: auto;
-// padding-top: 3rem;
-// padding-bottom: 3rem;
-// display: flex;
-// justify-content: space-around;
-
-// `
+ `
 
 export default ProjectsSection

@@ -82,9 +82,6 @@ const NavItems = styled.ul `
             font-size: .6rem;
         }
     }
-
-   
-    
 `
 
 const NavLink = styled.a`

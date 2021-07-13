@@ -41,9 +41,10 @@ const SkillsSection = () => {
 
 
 const SkillsTitle = styled.h2 `
+
     font-family: 'Lobster', cursive;
-    font-size: 12rem;
-    font-weight: 500;
+    font-size: 10rem;
+    font-weight: 600;
     text-align: center;
     
     @media(max-width: 736px){
@@ -60,14 +61,7 @@ flex: 1 1;
     flex-wrap: wrap;
     justify-content: space-between;
    padding-top: 6rem;
-/* height: 100%;
-padding-top: 4rem;
-padding-bottom:6rem;
-margin: auto;
-width: 90%;
-justify-content: space-between;
-display:flex;
-flex-wrap: wrap; */
+
 img{ 
     height: 85%;
     display: block;
@@ -78,20 +72,6 @@ div{
     margin-bottom: 7rem;
     cursor: pointer; 
 }
-/* @media(max-width:375px){
-    img{
-        height:4rem;
-        width: 5rem;
-    }
-    width: 80%;
-}
-@media(max-width:414px){
-    img{
-        height:50px;
-    }
-    width: 90%;
-} */
-
 
 `
 

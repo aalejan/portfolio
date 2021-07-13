@@ -68,6 +68,7 @@ font-size: 1.5rem;
     width: 90%;
     text-align: center;
     font-size: 4.5rem;
+    text-decoration: none;
 }
 .buttons{
     width: 60%;
