@@ -57,6 +57,7 @@ img{
 #overlay .description{
     font-size: 1.5rem;
     line-height: 1.5;
+    padding: 0rem .7rem;
 }
 
 #overlay p{

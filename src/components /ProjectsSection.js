@@ -33,7 +33,7 @@ const ProjectsSection = () => {
             liveCode='https://alejandromovies.com/'
             />
              <Card
-            description= 'Movie app the uses data from the TMDB API.Users are able to search for any movie they would like and popular movies are displayed to show what the public is watching. TMDB was used in order to retireive movie data.'
+            description= 'Todo app built on a decentralized cloud storage network. Users are able add and delete todos. Todo list data is stored on Skynet which uses decentralized storage.   '
             img={TodoImg}
             title = 'Decentralized Todo App'
             code = 'https://github.com/aalejan/todo-skapp'
