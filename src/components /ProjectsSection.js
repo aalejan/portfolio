@@ -64,7 +64,6 @@ color:#fcdf68 ;
     font-weight: 600;
     color:white;
     padding-top: 2rem;
-    text-decoration: underline #fcdf68 ;
     /* &:after{
         content:'';
         position:absolute;
