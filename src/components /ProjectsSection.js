@@ -4,6 +4,7 @@ import CoinHub from '../images/CoinHub.png'
 import styled from 'styled-components'
 import StarWars from '../images/StarWars.png'
 import MovieImg from '../images/Movie.png'
+import TodoImg from '../images/TodoAPp.png'
 
 const ProjectsSection = () => {
     return (
@@ -30,6 +31,13 @@ const ProjectsSection = () => {
             title = 'Movie App'
             code = 'https://github.com/aalejan/MovieUI'
             liveCode='https://alejandromovies.com/'
+            />
+             <Card
+            description= 'Movie app the uses data from the TMDB API.Users are able to search for any movie they would like and popular movies are displayed to show what the public is watching. TMDB was used in order to retireive movie data.'
+            img={TodoImg}
+            title = 'Decentralized Todo App'
+            code = 'https://github.com/aalejan/todo-skapp'
+            liveCode='https://000ctr4oin2ds0av7n1513752ss6bg5scjqn8snvhji7tqareunnr5g.siasky.net/'
             />
         
         </Projects>
