@@ -64,17 +64,6 @@ color:#fcdf68 ;
     font-weight: 600;
     color:white;
     padding-top: 2rem;
-    /* &:after{
-        content:'';
-        position:absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 2px;
-        background-color:white;
-        transform: scaleX(1);
-        
-    } */
 }
 
 
