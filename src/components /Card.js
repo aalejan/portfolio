@@ -76,6 +76,7 @@ font-size: 1.5rem;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;
 }
 
  #overlay button{
