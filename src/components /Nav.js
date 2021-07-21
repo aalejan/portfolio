@@ -45,6 +45,7 @@ const StyledNav = styled.nav`
    display:flex;
    justify-content: flex-end;
    position: fixed;
+   z-index: 1000;
 `
 
 const NavItems = styled.ul `
