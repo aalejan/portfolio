@@ -25,7 +25,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
           <h2>Reach Out!</h2>
           <ul>
               <li className='email'><a className='email' rel='noopener' href='mailto:eaglesalejandro.aa@gmail.com'><HiOutlineMail className='icon email'  /><span>eaglesalejandro.aa@gmail.com</span></a></li>
-              <li className='github'><a className='github' rel='noopener' href='github.com/aalejan'><FaGithub className='icon github ' /><span>github.com/aalejan</span></a></li>
+              <li className='github'><a className='github' rel='noopener' href='https://github.com/aalejan'><FaGithub className='icon github ' /><span>github.com/aalejan</span></a></li>
               <li className='linkedIn'><a className='linkedIn' rel='noopener' href='https://www.linkedin.com/in/alexander-alejandro/'><FaLinkedinIn  className='icon linkedIn'/><span>https://www.linkedin.com/in/alexander-alejandro/</span></a></li>
           </ul>
     {/* <Contact id="Contact">
