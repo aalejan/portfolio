@@ -30,9 +30,8 @@ const navAnimation = {
                         <li className="nav-item"><NavLink href="#Contact">Contact</NavLink></li>
                         </motion.li>             
                     </NavItems>
-                    <Burger />
                 </StyledNav>
-                
+                <Burger />
         </div>
     )
 }
@@ -40,25 +39,31 @@ const navAnimation = {
 const StyledNav = styled.nav`
     top: 0;
     width: 100%;
-    background-color: black;
+    background-color: white;
     min-height: 10vh;
    display:flex;
    justify-content: flex-end;
-   position: fixed;
+   
    z-index: 1000;
+   @media (max-width: 768px){
+       display: none;
+   }
 `
 
 const NavItems = styled.ul `
     //animation: title-entrance 1.5s ease-in-out;
     display: flex;
-    justify-content: space-between;
+   
     list-style: none;
-    font-size: 2.6rem;
+    font-size: 2rem;
     padding: 2rem 0rem;
     padding-right: 2rem;
-    width: 50%;
+    width: 40%;
     font-weight: 600;
-   
+   li{
+       padding-right: 3rem;
+       padding-left: 1rem;
+   }
     
 
 
@@ -89,7 +94,8 @@ const NavItems = styled.ul `
 const NavLink = styled.a`
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    color:#ff3b3f;
+    /* color:#ff3b3f; */
+    color: #494949;
     position: relative;
     &:after{
         content:'';

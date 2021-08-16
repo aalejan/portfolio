@@ -22,6 +22,7 @@ const Card = ({description, img, title, code, liveCode}) => {
 }
 
 const ProjectCard = styled.div`
+
    margin-top: 4rem;
     position: relative;
     width: 40%;
@@ -100,6 +101,7 @@ button a:visited{
 }
 
 @media (max-width: 768px){
+    width: 70%;
     #overlay h2{
         font-size: 2rem;
     }

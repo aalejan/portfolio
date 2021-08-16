@@ -22,7 +22,7 @@ const Burger = () => {
 const StyledBurger = styled.div`
   width: 3rem;
   height: 3rem;
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 20px;
   z-index: 20;
@@ -35,7 +35,7 @@ const StyledBurger = styled.div`
   div {
     width: 3rem;
     height: 0.5rem;
-    background-color: ${({ open }) => open ? '#ccc' : 'white'};
+    background-color: ${({ open }) => open ? '#ccc' : 'black'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

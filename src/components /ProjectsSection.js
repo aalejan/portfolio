@@ -18,13 +18,6 @@ const ProjectsSection = () => {
             code="https://github.com/aalejan/crypto-app"
             liveCode="https://aalejan.github.io/crypto-app/"
             />
-            <Card 
-            description="This App allows you to enter any text you want and have it translated into the language of your favorite Star Wars characters!!" 
-            img={StarWars} 
-            title="Star Wars Translator"
-            code="https://github.com/aalejan/Star-Wars-Translator-App"
-            liveCode='https://amazing-boyd-47ffdc.netlify.app/Translator'
-            />
             <Card
             description= 'Movie app the uses data from the TMDB API.Users are able to search for any movie they would like and popular movies are displayed to show what the public is watching. TMDB was used in order to retireive movie data.'
             img={MovieImg}
@@ -46,6 +39,10 @@ const ProjectsSection = () => {
 }
 
 const Projects = styled.div`
+ background-color: #c2e4f1;
+ border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 /* color: white; */
 color:#fcdf68 ;
 /* min-height: 70vh; */
@@ -64,13 +61,16 @@ color:#fcdf68 ;
     font-weight: 600;
     color:white;
     padding-top: 2rem;
+    
 }
 
 
 
 @media (max-width: 760px){
+    flex-direction: column;
+    align-items: center;
     h2{
-        font-size: 5rem;
+        font-size: 6rem;
     }
 }
  `

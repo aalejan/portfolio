@@ -28,7 +28,8 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
               <li className='github'><a className='github' rel='noopener' href='https://github.com/aalejan'><FaGithub className='icon github ' /><span>github.com/aalejan</span></a></li>
               <li className='linkedIn'><a className='linkedIn' rel='noopener' href='https://www.linkedin.com/in/alexander-alejandro/'><FaLinkedinIn  className='icon linkedIn'/><span>https://www.linkedin.com/in/alexander-alejandro/</span></a></li>
           </ul>
-    {/* <Contact id="Contact">
+       </ReachOut>   
+    /* <Contact id="Contact">
     <form className="contact-form" onSubmit={sendEmail}>
     <div className='title'>Contact Me</div>
       <label>Name</label>
@@ -39,19 +40,24 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
       <textarea name="message" />
       <input className= 'submit' type="submit" value="Send Message" />
     </form>
-    </Contact> */}
-    </ReachOut>
+    </Contact> */
+
+    
   );
 }
 
 const ReachOut = styled.div`
-padding-top: 10rem;
+border-radius: 10px;
+margin-top: 10rem;
+margin-bottom: 10rem;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: black;
-    background: #d2d2d2;
+    background: white;
     height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     h2{
         font-size: 4rem;
         font-weight: 700;
@@ -89,6 +95,17 @@ padding-top: 10rem;
             
         }
     }
+
+    @media (max-width: 768px){
+        ul{
+            li{
+            font-size: 1.8rem;
+            }
+        }
+        
+    }
+
+    
 `
 
 const Contact = styled.div`

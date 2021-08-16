@@ -42,8 +42,10 @@ const AboutSection = () => {
 }
 
 const About = styled.div `
+margin: auto;
+background: #b5e6f8;
     padding-left: 1rem;
-    color:white;
+   
     width:100%;
     min-height: 100vh;
     display: flex;
@@ -64,6 +66,10 @@ const About = styled.div `
            transition: transform 150ms ease-in-out;
         }
     }
+
+    @media (max-width: 768px){
+        min-height: 80vh;
+    }
 `
 
 const Title = styled.h2 `
@@ -72,8 +78,8 @@ font-size: 16rem;
  font-weight: 800;
  font-family: 'Lobster', cursive;
  @media (max-width: 736px){
-    
-     font-size: 10rem;
+
+     font-size: 8rem;
  }
 `
 

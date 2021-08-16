@@ -1,5 +1,6 @@
 * {
   font-family: "freight-sans-pro", "Helvetica Neue", Arial, sans-serif;
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,8 +16,13 @@ html{
   
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
   margin: 0 auto;
-  background: black;
+  
 }
 
