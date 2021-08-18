@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import StarWars from '../images/StarWars.png'
 import MovieImg from '../images/Movie.png'
 import TodoImg from '../images/TodoAPp.png'
+import NarutoImg from '../images/Naruto.png'
 
 const ProjectsSection = () => {
     return (
@@ -24,6 +25,13 @@ const ProjectsSection = () => {
             title = 'Movie App'
             code = 'https://github.com/aalejan/MovieUI'
             liveCode='https://alejandromovies.com/'
+            />
+            <Card
+            description = 'Access to Naruto characters through this RESTful API created using Express, MySQL, HTML, CSS, and javaScript. Thi s app utilizes a SQL database that allows the user to retireve data and use it in their own applications. Migrations are utilized to create tables and populate the tables with data of characters, villages, techniques, and powerstats.'
+            title='Naruto API'
+            img={NarutoImg}
+            code = 'https://github.com/aalejan/naruto-api1/tree/main'
+            liveCode='https://naruto-database1.herokuapp.com/'
             />
              <Card
             description= 'Todo app built on a decentralized cloud storage network. Users are able add and delete todos. Todo list data is stored on Skynet which uses decentralized storage.   '

@@ -32,6 +32,7 @@ img{
   border-radius: 4px;
     display: block;
     width: 100%;
+    object-fit: cover;
 }
 #overlay{
     position: absolute;
