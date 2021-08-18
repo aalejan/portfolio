@@ -23,9 +23,9 @@ const Card = ({description, img, title, code, liveCode}) => {
 
 const ProjectCard = styled.div`
 
-   margin-top: 4rem;
+   margin-top: 6rem;
     position: relative;
-    width: 40%;
+    width: 60%;
     height: 100%;
     cursor: pointer;
 img{
@@ -57,7 +57,7 @@ img{
     opacity: 1;
 }
 #overlay .description{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 1.5;
     padding: 0rem .7rem;
 }
