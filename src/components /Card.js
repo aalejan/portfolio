@@ -59,7 +59,7 @@ img{
 #overlay .description{
     font-size: 1.75rem;
     line-height: 1.5;
-    padding: 0rem .7rem;
+    padding: 0rem 1.2em;
 }
 
 #overlay p{
@@ -72,6 +72,7 @@ font-size: 1.5rem;
     text-align: center;
     font-size: 4.5rem;
     text-decoration: none;
+    margin: 0 auto;
 }
 .buttons{
     width: 60%;
