@@ -51,9 +51,7 @@ const StyledNav = styled.nav`
 `
 
 const NavItems = styled.ul `
-    //animation: title-entrance 1.5s ease-in-out;
     display: flex;
-   
     list-style: none;
     font-size: 2rem;
     padding: 2rem 0rem;
@@ -94,7 +92,6 @@ const NavItems = styled.ul `
 const NavLink = styled.a`
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    /* color:#ff3b3f; */
     color: #494949;
     position: relative;
     &:after{

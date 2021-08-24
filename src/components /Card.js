@@ -27,7 +27,6 @@ const ProjectCard = styled.div`
     position: relative;
     width: 60%;
     height: 100%;
-    cursor: pointer;
 img{
   border-radius: 4px;
     display: block;
@@ -78,8 +77,11 @@ font-size: 1.5rem;
     width: 60%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 2rem;
+    button{
+        margin-right: 1.5em;
+    }
 }
 
  #overlay button{
