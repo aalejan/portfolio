@@ -13,7 +13,7 @@ const ProjectsSection = () => {
         <h2>Projects</h2>
         
             <Card 
-            description="Coinhub allows the user to explore over 200 different crypto currencies. " 
+            description="Coinhub allows the user to explore over 200 different crypto currencies. Users are also able to view the top trending cryptocurrencies of the week, and the best exchanges for buying cryptocurrencies. Each cryptocurrency displayed is a link to a more detailed overview that includes chart data. Chart data is displayed based on the time frame the user chooses. This app uses React, HTML, CSS, and Chart.js. " 
             img={CoinHub} 
             title="CoinHub" 
             code="https://github.com/aalejan/crypto-app"
